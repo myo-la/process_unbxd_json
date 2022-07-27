@@ -2,10 +2,8 @@ import pandas as pd
 import openpyxl
 import json
 
-# df = pd.read_csv('C:/Users/lewis.anderson/Downloads/products_13_07_2022_12_53_analysed.csv')
+
 df = pd.read_json('26_july_22_json.json')  # , orient='feed')
-# data = json.loads('26_july_22_json.json')
-# result = pd.json_normalize(data)
 
 
 dicts = df.iloc[0, 0]
